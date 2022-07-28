@@ -46,13 +46,12 @@ function App() {
             title={"Черные фигуры"}
             figures={board.lostBlackFigures}
         />
+          <LostFigures
+              title={"Белые фигуры"}
+              figures={board.lostWhiteFigures}
+          />
       </div>
-      <div>
-        <LostFigures
-            title={"Белые фигуры"}
-            figures={board.lostWhiteFigures}
-        />
-      </div>
+
     </div>
   );
 }
