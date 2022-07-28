@@ -33,6 +33,16 @@ export class Cell {
       return false;
   }
 
+  whichCellsIsUnderAttack(target: Cell): any[] {
+    /*
+     * получаем все клетки которые находятся под боем других фигур(противоположного цвета)
+     * и потом когда ходит король, то сделать условие что клетки куда походит король - нету в этом массиве
+     */
+    console.log(this.board.cells.length);
+    return [];
+  }
+
+
   isEmptyVertical(target: Cell): boolean {
     if (this.y !== target.y) {
       return false;

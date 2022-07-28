@@ -43,7 +43,6 @@ export class Pawn extends Figure {
             return true;
         }
 
-
         return false;
     }
 
